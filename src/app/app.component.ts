@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'rental-angular-webapp';
+  componentTitle = 'I am from App component ts';
+
+  onClick() {
+    alert('I am clicked');
+  }
 }
