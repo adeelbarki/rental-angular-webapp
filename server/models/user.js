@@ -24,7 +24,8 @@ const userSchema = new Schema({
     min: [4, 'Too short, min 4 characters'],
     max:[32, 'Too long, max 32 characters']
   },
-  rentals: [{type: Schema.Types.ObjectId, ref:'Rental'}]
+  rentals: [{type: Schema.Types.ObjectId, ref:'Rental'}],
+  bookings: [{type: Schema.Types.ObjectId, ref:'Booking'}]
 });
 
 userSchema.methods.hasSamePassword = function(requestedPassword) {
