@@ -17,7 +17,7 @@ import { MapService } from './map.service';
   ],
   imports: [
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAcVgkseYpuYVvkAC7_dvfO6gF-4LF7e34'
+      apiKey: 'pk.eyJ1IjoiYWRlZWxiYXJraSIsImEiOiJjanh1cGhzZzkxN20wM2JxbTdrNzRqMTBqIn0.gpclIl2OVMyCwIZdAuKxGg'
     }),
     CommonModule
   ],

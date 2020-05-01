@@ -1,3 +1,4 @@
+
 html, body, p {
   color: black;
 }
@@ -24,6 +25,14 @@ html, body, p {
   form {
     margin-bottom: 10px;
   }
+
+.btn-bwm {
+  background-color: gray;
+  border-color: gray;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px !important;
+}
 
   .alert {
     p {
