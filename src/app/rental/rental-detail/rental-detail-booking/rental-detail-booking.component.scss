@@ -1,3 +1,19 @@
+.daterangepicker {
+  td {
+    &.in-range {
+      background-color: #ffa9a9 !important;
+    }
+
+    &.active {
+      background-color: red !important;
+
+      &.hover {
+        background-color: red !important;
+      }
+    }
+  }
+}
+
 .booking {
   padding: 20px;
   border: 1px solid gray;
@@ -34,4 +50,33 @@
     font-size: 13px;
     font-weight: 300;
   }
+}
+
+//Modal
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+// .modal-header, .modal-body, .modal-footer {
+//   background-color: #ced4da;
+// }
+
+.buttons {
+  margin: 15px, 8px;
+}
+
+em {
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}
+
+.modal-error {
+  margin: 16px;
 }
