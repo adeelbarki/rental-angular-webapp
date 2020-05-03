@@ -18,6 +18,20 @@
   padding: 20px;
   border: 1px solid gray;
 
+  .should-login {
+    text-align: center;
+    margin-bottom: 10px;
+
+    btn-bwm {
+      padding: 14px;
+      color: red;
+
+      &:focus, &:hover {
+        color: white;
+      }
+    }
+  }
+
   .btn-confirm {
     background-color: #FF5A5F;
     font-size: 17px;

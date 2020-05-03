@@ -5,8 +5,9 @@ import { HelperService } from '../../../common/service/helper.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ToastrService } from 'ngx-toastr';
 import { DaterangePickerComponent } from 'ng2-daterangepicker';
+import { AuthService } from '../../../auth/shared/auth.service';
 import * as moment from 'moment';
-import { Rental } from '../../shared/rental.module';
+import { Rental } from '../../shared/rental.model';
 
 
 @Component({
@@ -40,7 +41,8 @@ export class RentalDetailBookingComponent implements OnInit {
   constructor(private helper: HelperService,
               private modelService: NgbModal,
               private bookingService: BookingService,
-              private toastr: ToastrService) { }
+              private toastr: ToastrService,
+              public auth: AuthService) { }
 
   ngOnInit() {
     this.newBooking = new Booking();
