@@ -25,4 +25,12 @@ export class RentalService {
   public getRentals(): Observable<any> {
     return this.http.get('/api/v1/rentals');
   }
+
+  public getManagedRentals(): Observable<any> {
+    return this.http.get('/api/v1/rentals/manage');
+  }
+
+  public deleteRentalById(rentalId: string): Observable<any> {
+    return this.http.delete('/api/v1/rentals/' + rentalId);
+  }
 }

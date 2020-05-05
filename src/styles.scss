@@ -25,6 +25,19 @@ html, body, p {
   cursor: pointer;
 }
 
+.btn-ghost {
+  background-color: red;
+  color: white;
+  border: 1px solid red !important;
+  font-size: 18px !important;
+
+  &:hover, &:focus {
+    background-color: red !important;
+  color: white !important;
+  border: 1px solid red !important;
+  }
+}
+
 .bwm-form {
   color: black;
 
@@ -37,7 +50,7 @@ html, body, p {
   border-color: gray;
   color: white;
   padding: 15px 30px;
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
   .alert {
