@@ -22,6 +22,7 @@
               <button (click)="deleteRental(rental._id)" class="btn btn-success mr-1">Yes</button>
               <button (click)="rentalDeleteIndex = undefined" class="btn btn-danger">No</button>
             </div>
+            <a class="btn btn-warning btn-edit" routerLink="/rentals/{{rental._id}}/edit">Edit</a>
           </div>
         </div>
       </div>
