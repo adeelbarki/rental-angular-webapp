@@ -1,0 +1,9 @@
+<img  *ngIf="!isActiveInput"
+      class="editable-image" [src]="entity[entityField]">
+
+<app-image-upload (imageUploaded)="handleImageUpload($event)"
+                  (imageError)="handleImageError()"
+                  class="btn-editable"
+                  (imageLoadedToContainer)="handleImageToContainer()"
+                  (croppingCancelled)="cancelUpdate()">
+</app-image-upload>
