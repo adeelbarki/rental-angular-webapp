@@ -51,13 +51,9 @@
           </div>
 
           <div class="form-group">
-            <label for="image">Image</label>
-            <input type="file"
-                   name="image"
-                   class="form-control"
-                   id="image"
-                   placeholder="Upload file..."
-                   (change)="handleImageChange()">
+            <app-image-upload (imageUploaded)="handleImageUpload($event)"
+                              (imageError)="handleImageError($event)">
+            </app-image-upload>
           </div>
 
           <div class="form-group">
@@ -112,7 +108,7 @@
           </div>
 
           <button (click)="createRental()"
-                  [disabled]="!createForm.form.valid"
+                  [disabled]="!createForm.form.valid || !newRental.image"
                   type="button"
                   class="btn btn-bwm">Submit</button>
         </form>

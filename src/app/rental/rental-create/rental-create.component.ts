@@ -38,4 +38,12 @@ export class RentalCreateComponent implements OnInit {
         });
   }
 
+  handleImageUpload(imageUrl: string) {
+    this.newRental.image = imageUrl;
+  }
+
+  handleImageError($event) {
+    this.newRental.image = '';
+  }
+
 }
