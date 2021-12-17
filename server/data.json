@@ -1,7 +1,7 @@
 {
   "rentals": [{
       "title": "Nice view on ocean",
-      "city": "San Francisco",
+      "city": "Mount Pearl",
       "street": "Main street",
       "category": "condo",
       "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
@@ -11,9 +11,9 @@
       "dailyRate": 43
       },
       {
-      "title": "Modern apartment in center",
-      "city": "New York",
-      "street": "Time Square",
+      "title": "Modern apartment only 5 minute drive from downtown",
+      "city": "St. John's",
+      "street": "Prince Philip Drive",
       "category": "apartment",
       "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
       "bedrooms": 1,
@@ -23,8 +23,8 @@
       },
       {
       "title": "Old house in nature",
-      "city": "Spisska Nova Ves",
-      "street": "Banicka 1",
+      "city": "St. John's",
+      "street": "Mcdonald's Drive",
       "category": "house",
       "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
       "bedrooms": 5,
@@ -34,7 +34,7 @@
     },
     {
       "title": "Amazing modern place",
-      "city": "San Francisco",
+      "city": "Clerenville",
       "street": "Green street",
       "category": "house",
       "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
@@ -45,8 +45,8 @@
       },
       {
       "title": "Apartment In China Town",
-      "city": "San Francisco",
-      "street": "Union Street",
+      "city": "St. John's",
+      "street": "Torbey Road",
       "category": "apartment",
       "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
       "bedrooms": 3,
@@ -56,8 +56,8 @@
       },
       {
       "title": "House with Garden",
-      "city": "New York",
-      "street": "Long Island, Queens",
+      "city": "Gander",
+      "street": "Long Island",
       "category": "house",
       "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
       "bedrooms": 6,
@@ -67,8 +67,8 @@
     },
     {
       "title": "Cozy modern Condo",
-      "city": "New York",
-      "street": "Penn Station",
+      "city": "St. John's",
+      "street": "Kelsey Drive",
       "category": "condo",
       "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
       "bedrooms": 3,
