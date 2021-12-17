@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewContainerRef, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ViewEncapsulation } from '@angular/core';
 import { Booking } from '../../../booking/shared/booking.model';
 import { BookingService } from '../../../booking/shared/booking.service';
 import { HelperService } from '../../../common/service/helper.service';

@@ -44,6 +44,8 @@
     <p>Guests: <em>{{newBooking.guests}}</em></p>
     <p>Price: <em>{{newBooking.totalPrice}}$</em></p>
 
+    <app-payment></app-payment>
+
     <p>Confirm Booking?</p>
   </div>
   <div *ngIf="errors.length > 0" class="alert alert-danger modal-error">
