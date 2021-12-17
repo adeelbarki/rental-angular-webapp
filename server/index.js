@@ -30,7 +30,7 @@ app.use('/api/v1/bookings', bookingRoutes);
 app.use('/api/v1/', imageUploadRoutes);
 
 // if (process.env.NODE_ENV === 'production') {
-  const appPath = path.join(__dirname, '..', 'dist');
+  const appPath = path.join(__dirname, '..', 'dist/rental-angular-webapp');
   app.use(express.static(appPath));
 
   app.get('*', function(req, res) {
