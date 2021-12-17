@@ -18,6 +18,7 @@ import { ManageComponent } from './manage/manage.component';
 
 
 
+
 const routes: Routes = [
   {path: '', redirectTo: '/rentals', pathMatch: 'full'}
 ];
