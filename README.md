@@ -1,6 +1,8 @@
 # RentalAngularWebapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
+This sample project is created for rental homes in Newfoundland and Labrador. It is created in Angular and still under development.
+
+Live sample app can be seen at https://rentalhomesnl-ca.herokuapp.com/rentals
 
 ## Development server
 
