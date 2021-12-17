@@ -12,10 +12,10 @@ const rentalRoutes = require('./routes/rentals'),
       imageUploadRoutes = require('./routes/image-upload');
 
 mongoose.connect(config.DB_URI, {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
-  if(process.env.NODE_ENV !== 'production') {
+//   if(process.env.NODE_ENV !== 'production') {
     const fakeDb = new FakeDb();
-  // fakeDb.seedDb();
-  }
+    fakeDb.seedDb();
+//   }
 });
 
 mongoose.set('useCreateIndex', true);
